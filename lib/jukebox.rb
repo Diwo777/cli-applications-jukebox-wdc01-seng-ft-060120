@@ -14,12 +14,13 @@ def play(songs)
    number += 1 
     if input.to_i == number || input == song
       puts "Playing #{song}"
-    else
+      songs.each_with_index do |song,number|
+    if input.to_i != number || input != song
    puts "Invalid input, please try again"
  
  end 
   end 
- 
+ end
 end 
 
 def list (songs)
