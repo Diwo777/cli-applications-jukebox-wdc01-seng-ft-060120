@@ -15,11 +15,12 @@ def play(songs)
     number += 1 
     if input.to_i == number || input == song
       puts "Playing #{song}"
-    
+    else 
+      return 
  
  end 
   end 
- return "Invalid input, please try again"
+ 
 end 
 
 def list (songs)
