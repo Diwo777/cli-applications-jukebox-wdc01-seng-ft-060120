@@ -7,20 +7,7 @@ def help
   puts "- exit : exits this program"
 end
 
-def play(songs)
-  puts "Please enter a song name or number:"
-  input = gets.strip 
-  songs.each_with_index do |song,number|
-   number += 1 
-    if input.to_i == number || input == song
-      puts "Playing #{song}"
-    else
-   puts "Invalid input, please try again"
- 
- end 
-  end 
- 
-end 
+
 
 def list (songs)
   songs.each_with_index do |song, index|
