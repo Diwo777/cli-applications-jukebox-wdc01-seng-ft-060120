@@ -14,8 +14,8 @@ def play(songs)
    number += 1 
     if input.to_i == number || input == song
       puts "Playing #{song}"
-    elsif input.to_i != number && input != song
-      return  "Invalid input, please try again"
+    else
+      return"Invalid input, please try again"
  
  end 
   end 
