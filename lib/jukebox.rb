@@ -16,11 +16,10 @@ def play(songs)
     if input.to_i == number 
       puts "Playing #{song}"
     
- else 
-    puts "Invalid input, please try again"
+ 
  end 
   end 
- 
+ return 
 end 
 
 def list (songs)
