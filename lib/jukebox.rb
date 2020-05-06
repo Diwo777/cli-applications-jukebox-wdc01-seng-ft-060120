@@ -13,10 +13,9 @@ def play(songs)
   songs.each_with_index do |song,number|
     binding.pry
     number += 1 
-    if input.to_i == number 
+    if input.to_i == number || input == song 
       puts "Playing #{song}"
-    elsif input == song 
-    puts "Playing #{song}"
+    
  else 
     puts "Invalid input, please try again"
  end 
