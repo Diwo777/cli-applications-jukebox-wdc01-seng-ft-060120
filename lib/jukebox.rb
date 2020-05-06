@@ -47,7 +47,7 @@ def run(my_songs)
   
 end
   
-  exit_jukebox()
+
 end
 
 
