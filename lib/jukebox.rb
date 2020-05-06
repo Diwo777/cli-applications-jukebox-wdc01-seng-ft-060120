@@ -19,7 +19,7 @@ def play(songs)
  
  end 
   end 
- return 
+ return "Invalid input, please try again"
 end 
 
 def list (songs)
