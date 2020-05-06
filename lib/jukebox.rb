@@ -14,10 +14,9 @@ def play(songs)
     number += 1 
     if input == number || song 
    puts "Playing #{song}"
- else 
-   puts "Invalid input, please try again"
  end 
   end 
+  puts 
 end 
 
 def list (songs)
