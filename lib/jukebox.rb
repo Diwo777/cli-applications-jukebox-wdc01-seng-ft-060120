@@ -20,7 +20,7 @@ def play(my_songs)
   end
 end
 
-def list (songs)
+def list(songs)
   songs.each_with_index do |song, index|
   index += 1 
   puts "#{index}. #{song}"
@@ -41,7 +41,7 @@ def run(my_songs)
     when "help"
       help
       when "list"
-        list
+        list()
         when "play"
           play(my_songs)
   
