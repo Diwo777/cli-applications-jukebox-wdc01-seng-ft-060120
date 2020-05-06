@@ -13,7 +13,7 @@ def play(songs)
   songs.each_with_index do |song,number|
   
     number += 1 
-    unless input.to_i == number 
+    if input.to_i == number 
       puts "Playing #{song}"
     
  else 
