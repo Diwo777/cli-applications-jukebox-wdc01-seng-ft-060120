@@ -41,7 +41,7 @@ def run(my_songs)
     when "help"
       help
       when "list"
-        list 
+        list(songs)
         when "play"
           play
   
