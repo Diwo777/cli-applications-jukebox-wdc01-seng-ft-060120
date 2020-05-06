@@ -36,6 +36,9 @@ def run(my_songs)
   input = gets.strip
   
   case input 
+  when 
+  
+end
   
   exit_jukebox()
 end
