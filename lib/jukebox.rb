@@ -13,6 +13,7 @@ def play(songs)
   songs.each_with_index do |song,number|
     number += 1 
     if input.to_i == number 
+      puts "Playing <song name>"
  else 
     puts "Invalid input, please try again"
  end 
